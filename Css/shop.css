@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.logo{
+    height: 60px;
+    width: 250px;
+    cursor: pointer;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+}
+
+.home{
+    margin-right: 60px;
+    text-decoration: none;
+    color: #fff;
+    background-color:red;
+    padding: 10px 20px;
+}
+
+.hone{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.htwo{
+    margin: 30px 0px 20px 0px;
+    text-align: center;
+}
+  
+.shop{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.products{
+    margin: 0 20px;
+    border: 1px solid #000;
+}
+
+.shop img{
+    height: 300px;
+    width: 96%;
+    cursor: pointer;
+    padding-top: 6px;
+}
+
+.detail{
+    margin-top: 15px;
+    text-align: center;
+}
+
+button{
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #ff0000;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.button{
+    margin: 10px 0;
+    text-align: center;
+}
+
+button:hover{
+    color: #fff;
+    background-color: #ff0000;
+    transition: 0.5s ease;
+}
+
+.frames{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}

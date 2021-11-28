@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    height: 60px;
+    width: 250px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+}
+
+.hcenter{
+    width: 100%;
+    height: 85vh;
+}
+
+
+.mainmenu{
+    margin-right: 40px;
+}
+
+.menu{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.menu a{
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.submenu li{
+    margin-top: 20px;
+}
+.submenu1{
+    display: none;
+    background-color:#ffffff;
+    padding: 15px 10px;
+}
+
+.menu1:hover .submenu1{
+    display: block;
+    position: absolute;
+} 
+
+.submenu2{
+    display: none;
+    background-color:#ffffff;
+    padding: 15px 10px;
+}
+
+.menu2:hover .submenu2{
+    display: block;
+    position: absolute;
+} 
+
+.submenu3{
+    display: none;
+    background-color:#ffffff;
+    padding: 15px 10px;
+}
+
+.menu5:hover .submenu3{
+    display: block;
+    position: absolute;
+} 
+
+.navtrans{
+    position: relative;
+}
+
+.navtrans:after{
+    content: " ";
+    position: absolute;
+    background-color: #ff0000;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s ease;
+}
+
+.navtrans:hover:after{
+    width:100%;
+}
+
+.head1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ce{
+    margin-top: 20px;
+    height: 300px;
+    width: 100%;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.ce:hover{
+    transform: scale(1.1);
+}
+
+.cedate{
+    margin-top: 30px;
+    text-align: center;
+    color: #ff0000;
+}
+
+.tickets{
+    text-align: center;
+    margin: 40px auto;
+}
+
+.tickets button{
+    background-color: #ffffff;
+    color: black;
+    font-size: 20px;
+    width: 400px;
+    height: 60px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #ff0000;
+    transition: ease-out 0.8s;
+    border: 2px solid #ff0000;
+}
+
+.tickets button:hover, .artcollection button:hover{
+    box-shadow: inset 400px 0 0 0 #ff0000;
+    color: #ffffff;
+    border: none;
+}
+
+.head2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.carousel_container{
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide{
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+.slide img{
+    width: 100%;
+}
+
+#prev{
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 5%;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+#next{
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    right: 5%;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.artcollection{
+    text-align: center;
+    margin: 20px auto 40px auto;
+}
+
+.artcollection button{
+    background-color: #ffffff;
+    color: black;
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #ff0000;
+    transition: ease-out 1.5s;
+    border-bottom: 2px solid #ff0000;
+}
+

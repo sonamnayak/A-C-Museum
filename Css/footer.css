@@ -1,0 +1,59 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#foot{
+    margin-top: 30px;
+    padding-bottom: 10px;
+    background-color: #f15957;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 2;
+}
+
+#foot footer {
+    display: flex;
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+#foot #part1, #foot #part3 {
+    flex: 1;
+}
+
+#foot #part2{
+    flex: 1.5;
+}
+
+h2{
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#part1{
+    margin: auto auto;
+    line-height: 2.5;
+    font-size: 13px;
+}
+
+#part2 a:hover{
+    color: #000;
+}
+
+#credits{
+    text-align: center;
+    margin-top: 15px;
+}
+
+i{
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+

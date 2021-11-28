@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.logo{
+    height: 60px;
+    width: 250px;
+    cursor: pointer;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+}
+
+.home{
+    margin-right: 60px;
+    text-decoration: none;
+    color: white;
+    background-color:red;
+    padding: 10px 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    height: 85vh;
+}
+
+.box2{
+    margin-right: 10%;
+}
+
+.box1, .box2{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.img{
+    height: 400px;
+    width: 400px;
+}
+
+h2{
+    margin-bottom: 35px;
+}
+
+.box .inputbox {
+	position: relative;
+}
+
+.box .inputbox input {
+	margin: 14px auto;
+	padding: 10px;
+	outline: none;
+	background: transparent;
+	border: 0;
+	border-bottom: 1px solid #ff0000;
+	color: black;
+	position: relative;
+	width: 100%;
+	display: block;
+}
+
+.box .inputbox label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	color: #ff0000;
+} 
+
+.box .inputbox input:focus ~ label, .box .inputbox input:valid ~ label {
+	transition: 0.4s;
+	top: -20px;
+	left: 0;
+	color: #ff0000;
+	font-size: 12px;
+}
+
+.box input[type="submit"] {
+	background-color: #ff0000;
+	padding: 10px 8px;
+    border: 1px solid #ff0000;
+	width: 100px;
+	outline: none;
+	color: #ffffff;
+	display: block;
+	margin: 40px auto;
+    cursor: pointer;
+}
+
+textarea{
+	margin-top: 40px;
+	border-color: red;
+}
+

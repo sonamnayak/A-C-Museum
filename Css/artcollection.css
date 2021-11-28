@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.logo{
+    height: 60px;
+    width: 250px;
+    cursor: pointer;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+}
+
+.home{
+    margin-right: 60px;
+    text-decoration: none;
+    color: #fff;
+    background-color:red;
+    padding: 10px 20px;
+}
+
+h3{
+    font-size: 25px;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box{
+    flex: 1;
+    cursor: pointer;
+    margin: 20px 40px 10px 40px;
+}
+
+.box img, .box2 img{
+    width: 100%;
+    height: 300px;
+    transition: transform 0.5s ease;
+}
+
+.box img:hover, .box2 img:hover{
+    transform: scale(1.1);
+}
+
+p{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box2{
+    transition: transform 0.5s ease;
+    cursor: pointer;
+    margin: 20px 0px;
+}
+
+h1{
+    font-size: 30px;
+    margin: 20px 0px 30px 40px;
+}
+
+.last{
+    margin-bottom: 30px;
+}
