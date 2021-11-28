@@ -4,15 +4,19 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
 body{
     background-image: url("../images/book.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: fixed;
-}
-
-html{
-	scroll-behavior: smooth;
 }
 
 .logo{
