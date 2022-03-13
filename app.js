@@ -1,11 +1,7 @@
-const express= require("express"); 
 const cslide = document.querySelector('.slide');
 const cimages = document.querySelectorAll('.slide img')
 const prev = document.querySelector('#prev');
 const next = document.querySelector('#next');
-
-const app = express();
-const PORT= "process.env.PORT || 3000";
 
 let counter = 1;
 const size = cimages[0].clientWidth;
@@ -39,8 +35,4 @@ cslide,addEventListener('transitionend', () => {
         counter = cimages.length -counter;
         cslide.style.transform = 'translateX(' + (-size * counter) + 'px)';
     }
-})
-
-app.listen(PORT, ()=>{
-    console.log(`Server up and running at ${PORT}`);
 })
